@@ -1,0 +1,134 @@
+.converter-container {
+  padding: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.converter-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2563eb;
+}
+
+.source-time-section {
+  margin-bottom: 2rem;
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.section-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #4b5563;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .form-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.form-label {
+  display: block;
+  color: #4b5563;
+  margin-bottom: 0.25rem;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+.current-time {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.target-section {
+  margin-bottom: 1.5rem;
+}
+
+.time-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.time-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.time-card-info {
+  flex: 1;
+}
+
+.time-card-zone {
+  font-weight: 500;
+}
+
+.time-card-time {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.time-card-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.time-card-current {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.remove-button {
+  color: #ef4444;
+  padding: 0.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  color: #b91c1c;
+}
+
+.empty-message {
+  text-align: center;
+  color: #6b7280;
+  padding: 1rem 0;
+}
